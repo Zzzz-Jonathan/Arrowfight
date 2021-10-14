@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#count {
+    position: absolute;
+    left: 670px;
+    top: 310px;
+    width: 100px;
+    height: 100px;
+    z-index: 9999;
+}
+#count h1 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    display: none;
+}
+#arrow {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 339px;
+    left: 699px;
+}
+#shadow {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 339px;
+    left: 699px;
+}
+#shadow img {
+    width: 42px;
+    height: 42px;
+    opacity: 0.5;
+    display: none;
+}
+.fr {
+    position: absolute;
+    left: 678px;
+    top: 253px;
+    background-color: rgba(0,255,0,0.3);
+    width: 84px;
+    height: 214px;
+}
+.fl {
+    position: absolute;
+    left: 613px;
+    top: 318px;
+    background-color: rgba(0,255,0,0.3);
+    width: 214px;
+    height: 84px;
+}
+#arrow img {
+    width: 42px;
+    height: 42px;
+}
+#bg {
+    width: 1440px;
+    height: 720px;
+    position: relative;
+    margin: auto;
+    background-color: blue;
+}
+#destination {
+    position: absolute;
+    left: 680px;
+    top: 320px;
+    width: 84px;
+    height: 84px;
+    background-color: rgba(255,0,0,0.5);
+}
+#inf {
+    width: 1440px;
+    height: 150px;
+    position: relative;
+    margin: auto;
+    background-color: greenyellow;
+}
+.enemy {
+    position: absolute;
+    left: 1398px;
+    top: 678px;
+    background-color: rgba(255,192,203,0.5);
+    width: 42px;
+    height: 42px;
+}
+#guide {
+    width: 1440px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    background-color: pink;
+}
+.jumpDoor {
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    left: 689px;
+    top: 329px;
+    background-color: rgba(255,255,255,0.5);
+}
+.jumpDoorMask {
+    width: 63px;
+    height: 0;
+    background-color: rgba(255,255,255,0.5);
+}
+#movingr {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 84px;
+    height: 214px;
+}
+#movingl {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 214px;
+    height: 84px;
+}
+#btn {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    background-color: black;
+    left: 770px;
+}
+#time {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    background-color: black;
+    left: 400px;
+}
+#jumpCd1 {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    left: 50px;
+}
+#jumpCd2 {
+    width: 0;
+    height: 150px;
+    position: absolute;
+    background-color: rgba(0,0,255,0.5);
+    left: 0;
+}
+#score {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    background-color: black;
+    left: 1090px;
+}
+#btn button {
+    width: 300px;
+    height: 150px;
+    font-size: 100px;
+}
+#time h1 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 17px;
+}
+#score h1 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 17px;
+}

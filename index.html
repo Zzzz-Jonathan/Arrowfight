@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arrow Fight!</title>
+    <link rel="stylesheet" href="type.css" />
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script src="arrowfight.js" defer= "true"></script>
+</head>
+<body>
+    <div id="bg">
+        <div id="arrow">
+            <img src="image/arrow.png" alt="arrow"/>
+        </div>
+        <div id="shadow">
+            <img src="image/shadow.png" alt="shadow"/>
+        </div>
+        <div id="count">
+            <h1>3</h1>
+        </div>
+        <div id="destination"></div>
+        <div class="jumpDoor"><div class="jumpDoorMask"></div></div>
+        <div class="jumpDoor"><div class="jumpDoorMask"></div></div>
+        <div class="fr"></div>
+        <div class="fr"></div>
+        <div class="fr"></div>
+        <div class="fl"></div>
+        <div class="fl"></div>
+        <div class="fl"></div>
+        <div id="movingr"></div>
+        <div id="movingl"></div>
+        <div class="enemy"></div>
+        <div class="enemy"></div>
+        <div class="enemy"></div>
+        <div class="enemy"></div>
+        <div class="enemy"></div>
+        <div class="enemy"></div>
+    </div>
+    <div id="inf">
+        <div id="jumpCd1">
+            <div id="jumpCd2"></div>
+        </div>
+        <div id="time">
+            <h1>60s</h1>
+        </div>
+        <div id="btn">
+            <button id="btn1">Start</button>
+        </div>
+        <div id="score">
+            <h1>0</h1>
+        </div>
+    </div>
+    <div id="guide">
+        <p>1.长按空格进行移动，AD键控制方向，按住鼠标左键显示跳跃目的地，同时按住左右不能转向，但是会加速。</p>
+        <p>2.在左下角能量到达100%时可以松开鼠标左键进行跳跃（最大130%，多出30%可存储,跳跃可用时箭头底色会变黄示意）。</p>
+        <p>3.到达红色区域得分并加时间，触碰绿色区域时间将加速流失，时间用尽则游戏结束。</p>
+        <p>4.被追到会扣分，分数为负则游戏结束。</p>
+    </div>
+</body>
+</html>
